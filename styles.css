@@ -1,10 +1,14 @@
 body {
-    border: 3px solid #121212;
+    /* border: 3px solid red; */
     color: #121212;
     text-align: center;
     font-family: sans-serif;
 }
 
+main {
+    border: 5px solid #121212;
+    width: max-content;
+}
 
 img {
     width: 380px;
@@ -17,6 +21,7 @@ p {
 
 .intro {
     padding: 0 200px;
+    width: 380px;
 }
 
 button {
@@ -30,7 +35,9 @@ button {
 .btns {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #email-btn {
@@ -45,7 +52,6 @@ button {
     background-color: #121212;
     color: white;
 }
-
 #join-btn:hover {
     background-color: green;
     /* color: #121212; */
